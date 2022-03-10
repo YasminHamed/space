@@ -1,0 +1,205 @@
+body{
+    position: relative;
+    margin: 0px;
+    height: 400px;
+}
+.background{
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    color: aliceblue;
+    margin-right: 20px;
+}
+.navbar:hover{
+    color: aqua;
+    border-bottom: 2px dotted rgba(128, 255, 255, 0.692);
+}
+.navbar1{
+    position: absolute;
+    top: 20px;
+    margin-left: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgba(255, 255, 255, 0.239);
+    width: 50%;
+}
+.logo{
+    margin: 30px;
+    transition: all 1s ease ;
+}
+.logo:hover{
+    transform: rotate(9000deg);
+}
+h1{
+    color: white;
+    font-size: 60px;
+    margin-left: 40px;
+}
+h2{
+    color: rgb(187, 187, 187);
+    font-size: 30px;
+    margin-top: -50px;
+    margin-left: 40px;
+}
+p{
+    color: white;
+    width: 500px;
+    margin-left: 40px;
+}
+.explore{
+    border-radius: 100%;
+    font-size: 30px;
+    color: rgb(0, 23, 66);
+    background-color: white;
+    padding: 55px 40px;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.explore:hover{
+    color: white;
+    background-color: rgb(0, 23, 66);
+    transition: all 1s ease
+}
+.copyright{
+    background-color: rgba(0, 9, 87, 0.507);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 25px 0px;
+}
+.distinations{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.distination{
+    display: flex;
+    flex-direction: column;
+}
+.distinationn{
+    margin-top: 20px;
+    color: white;
+}
+.distinationnn{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+}
+.distinationnnn{
+    margin-left: -20px;
+    margin-top: 20px;
+    color: white;
+}
+.distinationn:hover{
+    color: rgb(0, 2, 31);
+    background-color: rgba(173, 217, 255, 0.555);
+    border-radius: 20px;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.distinationnn:hover{
+    color: rgb(0, 2, 31);
+    background-color: rgba(173, 217, 255, 0.555);
+    border-radius: 20px;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.distinationnnn:hover{
+    color: rgb(0, 2, 31);
+    background-color: rgba(173, 217, 255, 0.555);
+    border-radius: 20px;
+    font-size: 17px;
+    transition: all 0.5s;
+}
+.copyrightd{
+    background-color: rgba(0, 9, 87, 0.507);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 80px;
+    text-align: center;
+    padding: 10px 0px;
+}
+.list{
+    margin-left: -20px;
+    color: gray;
+}
+.pick{
+    color: rgb(201, 201, 201);
+    margin-left: 15px;
+}
+.hover:hover{
+    color: aliceblue;
+}
+.about{
+    width: 300px;
+}
+.mars{
+    width: 350px;
+    color: white;
+    background-color: rgba(0, 23, 66, 0.527);
+    border-radius: 20px;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+}
+.marsimg{
+    padding: 30px;
+    border-radius: 100%;
+    position: relative;
+    left: 550px;
+    top: -80px;
+}
+.copyrightm{
+    background-color: rgba(0, 9, 87, 0.507);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: -55px;
+    text-align: center;
+    padding: 20px 0px;
+}
+.aboutt{
+    margin-top: -20px;
+    width: 300px;
+}
+.crew{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.allcrew{
+    display: flex;
+    flex-direction: row;
+}
+.copyrightc{
+    background-color: rgba(0, 9, 87, 0.507);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 77px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.copyrightcr{
+    background-color: rgba(0, 9, 87, 0.507);
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 95px;
+    text-align: center;
+    padding: 15px 0px;
+}
+.creww{
+    position: absolute;
+    top: 130px;
+    left: 550px;
+}
+.aboutec{
+    margin-top: 100px;
+}
